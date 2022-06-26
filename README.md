@@ -4,5 +4,4 @@
 4. To open report go to path test-task/target/site/index.html
 5. Some tests give different results in Edge and Chrome Browsers. To run only tests for chrome use command: 
 mvn clean test -Dgroups=chromeOnlyTests allure:report
-6. 
 
