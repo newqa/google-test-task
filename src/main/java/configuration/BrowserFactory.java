@@ -18,6 +18,7 @@ import static configuration.BrowserOptions.getEdgeOptions;
 
 @AllArgsConstructor
 public class BrowserFactory {
+
     public static Settings settings = ConfigFactory.create(Settings.class, System.getProperties());
     private static final String UNKNOWN_BROWSER_MESSAGE = "Unknown browser type.";
     private BrowserType browser;

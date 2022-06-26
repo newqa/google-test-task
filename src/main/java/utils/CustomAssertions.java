@@ -10,8 +10,11 @@ import java.util.List;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class CustomAssertions {
+
     private static Logger logger = LogManager.getLogger(CustomAssertions.class.getName());
+
     private static final String ELEMENT_TEXT = "The element text %s";
+
     public static void assertThatElementTextContains(WebElement element, String expectedText) {
         String elementText = element.getText();
         logger.info("Element text " + elementText);

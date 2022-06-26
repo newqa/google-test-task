@@ -31,9 +31,6 @@ public class GoogleHomePage extends BasePage {
     @FindBy(css = "iframe")
     private WebElement googleApplications;
 
-    @FindBy(css = "")
-    private WebElement iframe;
-
     @Step("Accept all cookies")
     public GoogleHomePage acceptAllCookies() {
         acceptAllCookiesButton.click();

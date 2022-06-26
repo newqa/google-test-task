@@ -1,6 +1,7 @@
 package configuration;
 
 public class DriverUtils {
+
     public static void setInitialConfiguration() {
         DriverManager.getWebDriver().manage().window().maximize();
     }
