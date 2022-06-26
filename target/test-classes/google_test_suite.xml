@@ -1,9 +1,0 @@
-<suite name="Google home page and search tests">
-    <test name="Google home tests">
-        <classes>
-            <class name="com.googletests.GoogleSearchTest"/>
-            <class name="com.googletests.GoogleHomePageTests"/>
-        </classes>
-    </test>
-
-</suite>
