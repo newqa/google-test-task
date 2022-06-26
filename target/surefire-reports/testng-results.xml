@@ -1,28 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-25T16:11:21 CEST" name="Google home page and search tests" finished-at="2022-06-25T16:11:30 CEST" duration-ms="9583">
+  <suite started-at="2022-06-26T23:03:28 CEST" name="Google home page and search tests" finished-at="2022-06-26T23:04:02 CEST" duration-ms="33598">
     <groups>
       <group name="chromeOnlyTests">
-        <method signature="GoogleHomePageTests.shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage()[pri:0, instance:com.googletests.GoogleHomePageTests@116a2108]" name="shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage" class="com.googletests.GoogleHomePageTests"/>
+        <method signature="GoogleHomePageTests.shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage()[pri:0, instance:com.googletests.GoogleHomePageTests@6ac0b715]" name="shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage" class="com.googletests.GoogleHomePageTests"/>
+        <method signature="GoogleSearchTest.shouldBeAbleToGetLinksWhichContainSearchedPhrase()[pri:0, instance:com.googletests.GoogleSearchTest@21f8e55f]" name="shouldBeAbleToGetLinksWhichContainSearchedPhrase" class="com.googletests.GoogleSearchTest"/>
+        <method signature="GoogleSearchTest.shouldBeAbleToGetVideoSectionOnResultsPage()[pri:0, instance:com.googletests.GoogleSearchTest@21f8e55f]" name="shouldBeAbleToGetVideoSectionOnResultsPage" class="com.googletests.GoogleSearchTest"/>
       </group> <!-- chromeOnlyTests -->
     </groups>
-    <test started-at="2022-06-25T16:11:21 CEST" name="Google home tests" finished-at="2022-06-25T16:11:30 CEST" duration-ms="9583">
+    <test started-at="2022-06-26T23:03:28 CEST" name="Google home tests" finished-at="2022-06-26T23:04:02 CEST" duration-ms="33598">
       <class name="com.googletests.GoogleHomePageTests">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.googletests.GoogleHomePageTests@116a2108]" started-at="2022-06-25T16:11:21 CEST" name="beforeTest" finished-at="2022-06-25T16:11:25 CEST" duration-ms="4423" status="PASS">
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:com.googletests.GoogleHomePageTests@6ac0b715]" started-at="2022-06-26T23:03:50 CEST" name="prepareTest" finished-at="2022-06-26T23:03:52 CEST" duration-ms="2064" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage()[pri:0, instance:com.googletests.GoogleHomePageTests@116a2108]" started-at="2022-06-25T16:11:25 CEST" name="shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage" finished-at="2022-06-25T16:11:29 CEST" duration-ms="4016" status="PASS">
+        </test-method> <!-- prepareTest -->
+        <test-method signature="shouldBeAbleToChangeLanguageToSuggestedOne()[pri:0, instance:com.googletests.GoogleHomePageTests@6ac0b715]" started-at="2022-06-26T23:03:52 CEST" name="shouldBeAbleToChangeLanguageToSuggestedOne" finished-at="2022-06-26T23:03:53 CEST" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToChangeLanguageToSuggestedOne -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.googletests.GoogleHomePageTests@6ac0b715]" started-at="2022-06-26T23:03:53 CEST" name="quitDriver" finished-at="2022-06-26T23:03:53 CEST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:com.googletests.GoogleHomePageTests@6ac0b715]" started-at="2022-06-26T23:03:53 CEST" name="prepareTest" finished-at="2022-06-26T23:03:56 CEST" duration-ms="2278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method signature="shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage()[pri:0, instance:com.googletests.GoogleHomePageTests@6ac0b715]" started-at="2022-06-26T23:03:56 CEST" name="shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage" finished-at="2022-06-26T23:03:57 CEST" duration-ms="1499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.googletests.GoogleHomePageTests@116a2108]" started-at="2022-06-25T16:11:29 CEST" name="quitDriver" finished-at="2022-06-25T16:11:30 CEST" duration-ms="748" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.googletests.GoogleHomePageTests@6ac0b715]" started-at="2022-06-26T23:03:57 CEST" name="quitDriver" finished-at="2022-06-26T23:03:58 CEST" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:com.googletests.GoogleHomePageTests@6ac0b715]" started-at="2022-06-26T23:03:58 CEST" name="prepareTest" finished-at="2022-06-26T23:04:00 CEST" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method signature="shouldBeAbleToExpandGoogleApplications()[pri:0, instance:com.googletests.GoogleHomePageTests@6ac0b715]" started-at="2022-06-26T23:04:00 CEST" name="shouldBeAbleToExpandGoogleApplications" finished-at="2022-06-26T23:04:01 CEST" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToExpandGoogleApplications -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.googletests.GoogleHomePageTests@6ac0b715]" started-at="2022-06-26T23:04:01 CEST" name="quitDriver" finished-at="2022-06-26T23:04:02 CEST" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- com.googletests.GoogleHomePageTests -->
+      <class name="com.googletests.GoogleSearchTest">
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:com.googletests.GoogleSearchTest@21f8e55f]" started-at="2022-06-26T23:03:29 CEST" name="prepareTest" finished-at="2022-06-26T23:03:34 CEST" duration-ms="5035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method signature="shouldBeAbleToGetLinksWhichContainSearchedPhrase()[pri:0, instance:com.googletests.GoogleSearchTest@21f8e55f]" started-at="2022-06-26T23:03:34 CEST" name="shouldBeAbleToGetLinksWhichContainSearchedPhrase" finished-at="2022-06-26T23:03:37 CEST" duration-ms="2934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToGetLinksWhichContainSearchedPhrase -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.googletests.GoogleSearchTest@21f8e55f]" started-at="2022-06-26T23:03:37 CEST" name="quitDriver" finished-at="2022-06-26T23:03:38 CEST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:com.googletests.GoogleSearchTest@21f8e55f]" started-at="2022-06-26T23:03:38 CEST" name="prepareTest" finished-at="2022-06-26T23:03:40 CEST" duration-ms="1888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method signature="shouldBeAbleToGetVideoSectionOnResultsPage()[pri:0, instance:com.googletests.GoogleSearchTest@21f8e55f]" started-at="2022-06-26T23:03:40 CEST" name="shouldBeAbleToGetVideoSectionOnResultsPage" finished-at="2022-06-26T23:03:43 CEST" duration-ms="3167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToGetVideoSectionOnResultsPage -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.googletests.GoogleSearchTest@21f8e55f]" started-at="2022-06-26T23:03:43 CEST" name="quitDriver" finished-at="2022-06-26T23:03:43 CEST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="prepareTest()[pri:0, instance:com.googletests.GoogleSearchTest@21f8e55f]" started-at="2022-06-26T23:03:43 CEST" name="prepareTest" finished-at="2022-06-26T23:03:45 CEST" duration-ms="2030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareTest -->
+        <test-method signature="shouldBeAbleToNavigateToOtherSearchResultsPages()[pri:0, instance:com.googletests.GoogleSearchTest@21f8e55f]" started-at="2022-06-26T23:03:45 CEST" name="shouldBeAbleToNavigateToOtherSearchResultsPages" finished-at="2022-06-26T23:03:49 CEST" duration-ms="3310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToNavigateToOtherSearchResultsPages -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.googletests.GoogleSearchTest@21f8e55f]" started-at="2022-06-26T23:03:49 CEST" name="quitDriver" finished-at="2022-06-26T23:03:50 CEST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.googletests.GoogleSearchTest -->
     </test> <!-- Google home tests -->
   </suite> <!-- Google home page and search tests -->
 </testng-results>

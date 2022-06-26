@@ -1,0 +1,158 @@
+{
+  "uid" : "1bee91927dda2635",
+  "name" : "shouldBeAbleToGetLinksWhichContainSearchedPhrase",
+  "fullName" : "com.googletests.GoogleSearchTest.shouldBeAbleToGetLinksWhichContainSearchedPhrase",
+  "historyId" : "574b1eeb87a45e8fba8635558d5c1ba1",
+  "time" : {
+    "start" : 1656277414583,
+    "stop" : 1656277417334,
+    "duration" : 2751
+  },
+  "description" : "Search in google",
+  "descriptionHtml" : "<p>Search in google</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "prepareTest",
+    "time" : {
+      "start" : 1656277409094,
+      "stop" : 1656277414103,
+      "duration" : 5009
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Search in google",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Accept all cookies",
+      "time" : {
+        "start" : 1656277415510,
+        "stop" : 1656277415562,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Search with text Selenium",
+      "time" : {
+        "start" : 1656277415564,
+        "stop" : 1656277416968,
+        "duration" : 1404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "Selenium"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get text of links in search results",
+      "time" : {
+        "start" : 1656277416968,
+        "stop" : 1656277417329,
+        "duration" : 361
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedText",
+        "value" : "Selenium"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1656277417343,
+      "stop" : 1656277418128,
+      "duration" : 785
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.googletests.GoogleSearchTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.googletests.GoogleSearchTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldBeAbleToGetLinksWhichContainSearchedPhrase"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Google home page and search tests"
+  }, {
+    "name" : "suite",
+    "value" : "Google home tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.googletests.GoogleSearchTest"
+  }, {
+    "name" : "host",
+    "value" : "EPPLWROW019E"
+  }, {
+    "name" : "thread",
+    "value" : "57948@EPPLWROW019E.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1bee91927dda2635.json",
+  "parameterValues" : [ ]
+}

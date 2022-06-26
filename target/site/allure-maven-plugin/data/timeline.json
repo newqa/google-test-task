@@ -4,22 +4,87 @@
   "children" : [ {
     "name" : "EPPLWROW019E",
     "children" : [ {
-      "name" : "32452@EPPLWROW019E.main(1)",
+      "name" : "57948@EPPLWROW019E.main(1)",
       "children" : [ {
-        "name" : "shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage",
-        "uid" : "c6cfb7751d4def5f",
-        "parentUid" : "58d70219becba047fdd08fe87e0ce4b6",
+        "name" : "shouldBeAbleToChangeLanguageToSuggestedOne",
+        "uid" : "d63c15d66581cbe6",
+        "parentUid" : "bb8a22777b2645881e8f7d577806f8aa",
         "status" : "passed",
         "time" : {
-          "start" : 1656166286212,
-          "stop" : 1656166289956,
-          "duration" : 3744
+          "start" : 1656277432081,
+          "stop" : 1656277433315,
+          "duration" : 1234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldBeAbleToGetVideoSectionOnResultsPage",
+        "uid" : "c00850f8328720f5",
+        "parentUid" : "bb8a22777b2645881e8f7d577806f8aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656277420027,
+          "stop" : 1656277423193,
+          "duration" : 3166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldBeAbleToNavigateToOtherSearchResultsPages",
+        "uid" : "b50f82a444a3a3bd",
+        "parentUid" : "bb8a22777b2645881e8f7d577806f8aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656277425962,
+          "stop" : 1656277429268,
+          "duration" : 3306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldBeAbleToExpandGoogleApplications",
+        "uid" : "238b58da0fff630a",
+        "parentUid" : "bb8a22777b2645881e8f7d577806f8aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656277440571,
+          "stop" : 1656277441887,
+          "duration" : 1316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage",
+        "uid" : "4d2a15ffa18d73b1",
+        "parentUid" : "bb8a22777b2645881e8f7d577806f8aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656277436277,
+          "stop" : 1656277437774,
+          "duration" : 1497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldBeAbleToGetLinksWhichContainSearchedPhrase",
+        "uid" : "1bee91927dda2635",
+        "parentUid" : "bb8a22777b2645881e8f7d577806f8aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656277414583,
+          "stop" : 1656277417334,
+          "duration" : 2751
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "58d70219becba047fdd08fe87e0ce4b6"
+      "uid" : "bb8a22777b2645881e8f7d577806f8aa"
     } ],
     "uid" : "14449836f5272b772ac98bb0fbe0ee0a"
   } ]

@@ -6,10 +6,11 @@ pageobjects\AboutGmailPage.class
 pageobjects\BasePage.class
 configuration\BrowserOptions.class
 configuration\DriverManager.class
+utils\CustomAssertions.class
 pageobjects\GoogleHomePage.class
 configuration\BrowserFactory.class
 configuration\DriverUtils.class
 configuration\Settings.class
-utils\CustomWebElementAssert.class
+pageobjects\GoogleSearchResultsPage.class
 utils\HelperMethods.class
 configuration\BrowserType.class

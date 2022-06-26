@@ -1,0 +1,137 @@
+{
+  "uid" : "238b58da0fff630a",
+  "name" : "shouldBeAbleToExpandGoogleApplications",
+  "fullName" : "com.googletests.GoogleHomePageTests.shouldBeAbleToExpandGoogleApplications",
+  "historyId" : "bb60e85b1533249a18218028dd72578c",
+  "time" : {
+    "start" : 1656277440571,
+    "stop" : 1656277441887,
+    "duration" : 1316
+  },
+  "description" : "Verify that applications frame appears when applications button is clicked",
+  "descriptionHtml" : "<p>Verify that applications frame appears when applications button is clicked</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "prepareTest",
+    "time" : {
+      "start" : 1656277438462,
+      "stop" : 1656277440566,
+      "duration" : 2104
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that applications frame appears when applications button is clicked",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Accept all cookies",
+      "time" : {
+        "start" : 1656277440572,
+        "stop" : 1656277440706,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on Google applications",
+      "time" : {
+        "start" : 1656277440706,
+        "stop" : 1656277441799,
+        "duration" : 1093
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "quitDriver",
+    "time" : {
+      "start" : 1656277441889,
+      "stop" : 1656277442565,
+      "duration" : 676
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.googletests.GoogleHomePageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.googletests.GoogleHomePageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "shouldBeAbleToExpandGoogleApplications"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Google home page and search tests"
+  }, {
+    "name" : "suite",
+    "value" : "Google home tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.googletests.GoogleHomePageTests"
+  }, {
+    "name" : "host",
+    "value" : "EPPLWROW019E"
+  }, {
+    "name" : "thread",
+    "value" : "57948@EPPLWROW019E.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "238b58da0fff630a.json",
+  "parameterValues" : [ ]
+}

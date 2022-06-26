@@ -6,16 +6,85 @@
     "children" : [ {
       "name" : "Google home tests",
       "children" : [ {
+        "name" : "com.googletests.GoogleSearchTest",
+        "children" : [ {
+          "name" : "shouldBeAbleToGetLinksWhichContainSearchedPhrase",
+          "uid" : "1bee91927dda2635",
+          "parentUid" : "7ddf61a25e18a5f57a56aecba8d1f411",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656277414583,
+            "stop" : 1656277417334,
+            "duration" : 2751
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldBeAbleToGetVideoSectionOnResultsPage",
+          "uid" : "c00850f8328720f5",
+          "parentUid" : "7ddf61a25e18a5f57a56aecba8d1f411",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656277420027,
+            "stop" : 1656277423193,
+            "duration" : 3166
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldBeAbleToNavigateToOtherSearchResultsPages",
+          "uid" : "b50f82a444a3a3bd",
+          "parentUid" : "7ddf61a25e18a5f57a56aecba8d1f411",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656277425962,
+            "stop" : 1656277429268,
+            "duration" : 3306
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7ddf61a25e18a5f57a56aecba8d1f411"
+      }, {
         "name" : "com.googletests.GoogleHomePageTests",
         "children" : [ {
-          "name" : "shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage",
-          "uid" : "c6cfb7751d4def5f",
+          "name" : "shouldBeAbleToChangeLanguageToSuggestedOne",
+          "uid" : "d63c15d66581cbe6",
           "parentUid" : "027530a7919334572b980e99de561b3e",
           "status" : "passed",
           "time" : {
-            "start" : 1656166286212,
-            "stop" : 1656166289956,
-            "duration" : 3744
+            "start" : 1656277432081,
+            "stop" : 1656277433315,
+            "duration" : 1234
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage",
+          "uid" : "4d2a15ffa18d73b1",
+          "parentUid" : "027530a7919334572b980e99de561b3e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656277436277,
+            "stop" : 1656277437774,
+            "duration" : 1497
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldBeAbleToExpandGoogleApplications",
+          "uid" : "238b58da0fff630a",
+          "parentUid" : "027530a7919334572b980e99de561b3e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656277440571,
+            "stop" : 1656277441887,
+            "duration" : 1316
           },
           "flaky" : false,
           "newFailed" : false,
