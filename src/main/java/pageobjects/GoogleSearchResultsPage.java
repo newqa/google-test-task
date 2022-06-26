@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import java.util.List;
 
 import static utils.CustomAssertions.assertThatElementsTextContain;
-import static utils.Waits.waitUntilElementIsVisible;
 
 public class GoogleSearchResultsPage extends BasePage {
     @FindBy(xpath = "//h3[@class and parent::a]")
@@ -15,6 +14,7 @@ public class GoogleSearchResultsPage extends BasePage {
 
     @FindBy(xpath = "//h3[@class='GmE3X' and ancestor::div[@class='ULSxyf']]")
     private WebElement videosSectionHeading;
+
     @FindBy(css = "video-voyager")
     private List<WebElement> youtubeVideosLinks;
 
@@ -68,14 +68,14 @@ public class GoogleSearchResultsPage extends BasePage {
     }
 
     @Step("Change result page by clicking Next")
-    public GoogleSearchResultsPage clickNext (){
+    public GoogleSearchResultsPage clickNext() {
         nextResultsPage.click();
         log().info("Clicking on " + nextResultsPage.getText());
         return this;
     }
 
     @Step("Change result page to previous by clicking Previous")
-    public GoogleSearchResultsPage clickPrevious (){
+    public GoogleSearchResultsPage clickPrevious() {
         previousResultsPage.click();
         log().info("Clicking on previous page");
         return this;

@@ -5,25 +5,29 @@ import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import utils.CustomAssertions;
 import utils.Waits;
-
-import java.util.List;
 
 @Slf4j
 public class GoogleHomePage extends BasePage {
+
     @FindBy(name = "q")
     private WebElement googleSearchField;
+
     @FindBy(id = "L2AGLb")
     private WebElement acceptAllCookiesButton;
+
     @FindBy(id = "SIvCob")
     private WebElement languagesToUseInfo;
+
     @FindBy(xpath = "//a[@href and parent::div[@id='SIvCob']]")
     private WebElement languageLink;
+
     @FindBy(className = "gb_d")
     private WebElement gmail;
+
     @FindBy(className = "gb_A")
     private WebElement googleApplicationsButton;
+
     @FindBy(css = "iframe")
     private WebElement googleApplications;
 
@@ -35,6 +39,7 @@ public class GoogleHomePage extends BasePage {
         acceptAllCookiesButton.click();
         return this;
     }
+
     @Step("Search with text {text}")
     public GoogleSearchResultsPage searchWithText(String text) {
         log().info("Clearing search field");
