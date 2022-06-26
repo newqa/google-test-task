@@ -28,7 +28,6 @@ public class GoogleHomePageTests extends TestBase{
                 .assertThat(gmailText)
                 .describedAs("Gmail hyperlink display name is incorrect.")
                 .isEqualTo("Gmail");
-
         softly
                 .assertThat(signInButtonText)
                 .describedAs("Sign in button text is incorrect")
@@ -37,7 +36,7 @@ public class GoogleHomePageTests extends TestBase{
 
     }
 
-    @Description("Verify applications' frame")
+    @Description("Verify that applications frame appears when applications button is clicked")
     @Test
     public void shouldBeAbleToExpandGoogleApplications() {
         googleHomePage = new GoogleHomePage();
@@ -53,7 +52,7 @@ public class GoogleHomePageTests extends TestBase{
         softly.assertAll();
     }
 
-    @Description("Verify current language and changing language used in Google")
+    @Description("Verify current language and possibility to change language used in Google")
     @Test
     public void shouldBeAbleToChangeLanguageToSuggestedOne() {
         googleHomePage = new GoogleHomePage();
@@ -71,7 +70,6 @@ public class GoogleHomePageTests extends TestBase{
                 .assertThat(suggestedLanguage)
                 .describedAs("Suggested languages message is not as expected.")
                 .isEqualTo("Korzystaj z Google w tych językach: English");
-
         softly
                 .assertThat(changedLanguage)
                 .describedAs("Language is not changed")
