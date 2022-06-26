@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "EPPLWROW019E",
+    "children" : [ {
+      "name" : "32452@EPPLWROW019E.main(1)",
+      "children" : [ {
+        "name" : "shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage",
+        "uid" : "c6cfb7751d4def5f",
+        "parentUid" : "58d70219becba047fdd08fe87e0ce4b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656166286212,
+          "stop" : 1656166289956,
+          "duration" : 3744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58d70219becba047fdd08fe87e0ce4b6"
+    } ],
+    "uid" : "14449836f5272b772ac98bb0fbe0ee0a"
+  } ]
+}

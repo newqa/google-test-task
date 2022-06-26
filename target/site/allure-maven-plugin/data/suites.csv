@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Jun 25 16:11:26 CEST 2022","Sat Jun 25 16:11:29 CEST 2022","3744","Google home page and search tests","Google home tests","com.googletests.GoogleHomePageTests","com.googletests.GoogleHomePageTests","shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage","shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage","Verify Gmail hyperlink on main Google page"

@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.googletests.GoogleHomePageTests",
+    "children" : [ {
+      "name" : "shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage",
+      "uid" : "c6cfb7751d4def5f",
+      "parentUid" : "8c44ad2ecd02b870be56e2741e9df6ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656166286212,
+        "stop" : 1656166289956,
+        "duration" : 3744
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.googletests.GoogleHomePageTests"
+  } ]
+}

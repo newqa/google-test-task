@@ -1,0 +1,15 @@
+configuration\BrowserFactory$1.class
+configuration\TestRunProperties.class
+utils\listeners\RetryAnalyzer.class
+utils\Waits.class
+pageobjects\AboutGmailPage.class
+pageobjects\BasePage.class
+configuration\BrowserOptions.class
+configuration\DriverManager.class
+pageobjects\GoogleHomePage.class
+configuration\BrowserFactory.class
+configuration\DriverUtils.class
+configuration\Settings.class
+utils\CustomWebElementAssert.class
+utils\HelperMethods.class
+configuration\BrowserType.class

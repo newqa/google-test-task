@@ -1,0 +1,3 @@
+com\googletests\TestBase.class
+com\googletests\GoogleHomePageTests.class
+com\googletests\GoogleSearchTest.class

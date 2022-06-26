@@ -1,0 +1,11 @@
+[ {
+  "uid" : "c6cfb7751d4def5f",
+  "name" : "shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage",
+  "time" : {
+    "start" : 1656166286212,
+    "stop" : 1656166289956,
+    "duration" : 3744
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

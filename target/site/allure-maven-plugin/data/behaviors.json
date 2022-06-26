@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage",
+    "uid" : "c6cfb7751d4def5f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656166286212,
+      "stop" : 1656166289956,
+      "duration" : 3744
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

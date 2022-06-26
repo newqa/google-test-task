@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Google home page and search tests",
+    "children" : [ {
+      "name" : "Google home tests",
+      "children" : [ {
+        "name" : "com.googletests.GoogleHomePageTests",
+        "children" : [ {
+          "name" : "shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage",
+          "uid" : "c6cfb7751d4def5f",
+          "parentUid" : "027530a7919334572b980e99de561b3e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1656166286212,
+            "stop" : 1656166289956,
+            "duration" : 3744
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "027530a7919334572b980e99de561b3e"
+      } ],
+      "uid" : "80ece3997e802112c0fd571e21d0d37c"
+    } ],
+    "uid" : "07b38d192fc9a8a11d09ba83c58bebbe"
+  } ]
+}
