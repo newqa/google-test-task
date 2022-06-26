@@ -37,7 +37,7 @@ public class GoogleHomePage extends BasePage {
     }
     @Step("Search with text {text}")
     public GoogleSearchResultsPage searchWithText(String text) {
-        log().info("Clearing search field " + text);
+        log().info("Clearing search field");
         googleSearchField.clear();
         log().info("Searching for text " + text);
         googleSearchField.sendKeys(text);

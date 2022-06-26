@@ -19,6 +19,7 @@ public class TestBase {
         DriverUtils.setInitialConfiguration();
         DriverUtils.navigateToPage(settings.getGoogleUrl());
     }
+
     @AfterMethod(alwaysRun = true)
     public void quitDriver() {
         DriverManager.quitDriver();
