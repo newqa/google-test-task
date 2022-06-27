@@ -18,7 +18,7 @@ public class GoogleSearchTest extends TestBase {
     private int expectedCurrentSecondPageNumber = 2;
 
     @Description("Search in google")
-    @Test(groups = "chromeOnlyTests")
+    @Test(groups = "chromeAndEdgeTests")
     public void shouldBeAbleToGetLinksWhichContainSearchedPhrase() {
         googleHomePage = new GoogleHomePage();
         googleHomePage
@@ -28,8 +28,7 @@ public class GoogleSearchTest extends TestBase {
     }
 
     @Description("Verify that search results page contains videos section with three sub-sections")
-    @Test(groups = "chromeOnlyTests",
-            retryAnalyzer = RetryAnalyzer.class)
+    @Test(retryAnalyzer = RetryAnalyzer.class, groups = "chromeAndEdgeTests")
     public void shouldBeAbleToGetVideoSectionOnResultsPage() {
         googleSearchResultsPage = new GoogleSearchResultsPage();
         googleHomePage = new GoogleHomePage();
@@ -54,7 +53,7 @@ public class GoogleSearchTest extends TestBase {
     }
 
     @Description("Verify that user can navigate to other search results pages")
-    @Test()
+    @Test(groups = "chromeAndEdgeTests")
     public void shouldBeAbleToNavigateToOtherSearchResultsPages() {
         googleHomePage = new GoogleHomePage();
         googleSearchResultsPage = new GoogleSearchResultsPage();

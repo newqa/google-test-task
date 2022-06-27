@@ -11,7 +11,7 @@ public class GoogleHomePageTests extends TestBase{
     private AboutGmailPage aboutGmailPage;
 
     @Description("Verify Gmail hyperlink on main Google page")
-    @Test(groups = "chromeOnlyTests")
+    @Test()
     public void shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage() {
         googleHomePage = new GoogleHomePage();
         aboutGmailPage = new AboutGmailPage();
@@ -37,7 +37,7 @@ public class GoogleHomePageTests extends TestBase{
     }
 
     @Description("Verify that applications frame appears when applications button is clicked")
-    @Test
+    @Test(groups = "chromeAndEdgeTests")
     public void shouldBeAbleToExpandGoogleApplications() {
         googleHomePage = new GoogleHomePage();
         boolean isApplicationsFrameDisplayed = googleHomePage
@@ -53,7 +53,7 @@ public class GoogleHomePageTests extends TestBase{
     }
 
     @Description("Verify current language and possibility to change language used in Google")
-    @Test
+    @Test(groups = "chromeAndEdgeTests")
     public void shouldBeAbleToChangeLanguageToSuggestedOne() {
         googleHomePage = new GoogleHomePage();
         String suggestedLanguage = googleHomePage
