@@ -1,6 +1,5 @@
 package utils;
 
-import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -22,9 +21,10 @@ public class CustomAssertions {
                 .describedAs(String.format(ELEMENT_TEXT, "contains expected text."))
                 .containsIgnoringCase(expectedText);
     }
-    public static void assertThatElementsTextContain(List<WebElement> webElements, String expectedText){
-       webElements
-               .forEach(webElement -> assertThatElementTextContains(webElement, expectedText));
+
+    public static void assertThatElementsTextContain(List<WebElement> webElements, String expectedText) {
+        webElements
+                .forEach(webElement -> assertThatElementTextContains(webElement, expectedText));
     }
 
 }

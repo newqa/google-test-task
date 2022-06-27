@@ -10,8 +10,7 @@ import utils.listeners.RetryAnalyzer;
 public class GoogleSearchTest extends TestBase {
     private GoogleHomePage googleHomePage;
     private GoogleSearchResultsPage googleSearchResultsPage;
-    private String searchedPhrase = "Selenium";
-    private String expectedVideosSectionName = "Wideo";
+    private final String searchedPhrase = "Selenium";
     private int expectedYoutubeVideosNumber = 3;
     private int expectedNumberOfRedirectionsToResultPages = 9;
     private int expectedCurrentFirstPageNumber = 1;
@@ -40,6 +39,7 @@ public class GoogleSearchTest extends TestBase {
         int numberOfYoutubeVideosLinks = googleSearchResultsPage.getNumberOfVideosInSearchResults();
 
         SoftAssertions softly = new SoftAssertions();
+        String expectedVideosSectionName = "Wideo";
         softly
                 .assertThat(videosHeading)
                 .describedAs("Videos section name is incorrect or not found " + expectedVideosSectionName)

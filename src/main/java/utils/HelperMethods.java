@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class HelperMethods {
 
-    public static List<String> extractTextFromWebElements(List<WebElement> webElements){
+    public static List<String> extractTextFromWebElements(List<WebElement> webElements) {
         return webElements
                 .stream()
                 .map(WebElement::getText)

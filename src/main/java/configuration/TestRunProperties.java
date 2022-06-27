@@ -9,6 +9,7 @@ public class TestRunProperties {
     public static BrowserType getBrowserFromProperties() {
         return BrowserType.valueOf(settings.getBrowser().toUpperCase());
     }
+
     public static boolean getIsRemoteRunFromProperties() {
         return Boolean.parseBoolean(settings.getIsRemoteRun());
     }

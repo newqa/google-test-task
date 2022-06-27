@@ -1,6 +1,5 @@
 package utils;
 
-import configuration.BrowserFactory;
 import configuration.DriverManager;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,7 +9,8 @@ import java.time.Duration;
 
 public class Waits {
 
-    private static final Duration DEFAULT_DURATION= Duration.ofSeconds(3);
+    private static final Duration DEFAULT_DURATION = Duration.ofSeconds(3);
+
     private static WebDriverWait getWebDriverWait() {
         return new WebDriverWait(DriverManager.getWebDriver(), DEFAULT_DURATION);
     }

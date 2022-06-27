@@ -3,6 +3,7 @@ package pageobjects;
 import io.qameta.allure.Step;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import utils.Waits;
@@ -91,14 +92,18 @@ public class GoogleHomePage extends BasePage {
         return howSearchWorksLinkText;
     }
 
-    @Step("Check if \"our apporach\" is displayed")
+    @Step("Check if \"our approach\" is displayed")
     public Boolean isGoogleApproachDisplayed() {
         boolean isDisplayed;
-        if(ourApproachLink.isDisplayed()) {
+        Waits.waitUntilElementIsVisible(ourApproachLink);
+        try {
+            ourApproachLink.isDisplayed();
+            log.info("Element is displayed");
             isDisplayed = true;
+        } catch (NoSuchElementException ex) {
+            log.info("Element is not displayed");
+            isDisplayed = false;
         }
-        else isDisplayed = false;
-        log().info("");
         return isDisplayed;
     }
 

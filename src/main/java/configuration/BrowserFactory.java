@@ -52,6 +52,7 @@ public class BrowserFactory {
             }
         }
     }
+
     private WebDriver getRemoteWebDriver(DesiredCapabilities desiredCapabilities) {
         RemoteWebDriver remoteWebDriver = null;
         try {

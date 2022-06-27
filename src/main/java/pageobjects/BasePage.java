@@ -1,6 +1,5 @@
 package pageobjects;
 
-import configuration.BrowserFactory;
 import configuration.DriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -11,7 +10,9 @@ public abstract class BasePage {
     public BasePage() {
         PageFactory.initElements(DriverManager.getWebDriver(), this);
     }
-    private Logger logger = LogManager.getLogger(this.getClass().getName());;
+
+    private Logger logger = LogManager.getLogger(this.getClass().getName());
+
     protected Logger log() {
         return logger;
     }

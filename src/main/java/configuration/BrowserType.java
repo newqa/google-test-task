@@ -2,12 +2,7 @@ package configuration;
 
 public enum BrowserType {
 
-    CHROME("chrome"),
-    EDGE("edge");
+    CHROME,
+    EDGE;
 
-    private final String browser;
-
-    BrowserType(String browser) {
-        this.browser = browser;
-    }
 }
