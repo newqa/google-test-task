@@ -10,8 +10,29 @@ public class GoogleHomePageTests extends TestBase{
     private GoogleHomePage googleHomePage;
     private AboutGmailPage aboutGmailPage;
 
+    @Description("")
+    @Test()
+    public void shouldBeAbleToClickOnHowSearchWorksLink(){
+        googleHomePage = new GoogleHomePage();
+        String howSearchWorksText = googleHomePage
+                .acceptAllCookies()
+                .clickOnHowSearchWorksHyperLink();
+        boolean isGoogleApproachDisplayed = googleHomePage.isGoogleApproachDisplayed();
+
+                SoftAssertions softly = new SoftAssertions();
+        softly
+                .assertThat(howSearchWorksText)
+                .describedAs("How does seach work is not clickable")
+                .isEqualTo("Jak działa wyszukiwarka");
+        softly
+                .assertThat(isGoogleApproachDisplayed)
+                .describedAs("Redirection to \"our apporach\" is visible" )
+                .isTrue();
+        softly.assertAll();
+    }
+
     @Description("Verify Gmail hyperlink on main Google page")
-    @Test(groups = "chromeOnlyTests")
+    @Test()
     public void shouldBeAbleToClickOnGmailLinkAndBeRedirectedToGmailPage() {
         googleHomePage = new GoogleHomePage();
         aboutGmailPage = new AboutGmailPage();
@@ -37,7 +58,7 @@ public class GoogleHomePageTests extends TestBase{
     }
 
     @Description("Verify that applications frame appears when applications button is clicked")
-    @Test
+    @Test(groups = "chromeAndEdgeTests")
     public void shouldBeAbleToExpandGoogleApplications() {
         googleHomePage = new GoogleHomePage();
         boolean isApplicationsFrameDisplayed = googleHomePage

@@ -31,6 +31,12 @@ public class GoogleHomePage extends BasePage {
     @FindBy(css = "iframe")
     private WebElement googleApplications;
 
+    @FindBy(css = "a[href*='howsearchworks']")
+    private WebElement howSearchWorksLink;
+
+    @FindBy(xpath = "(//a[@href='#ourApproach'])[1]")
+    private WebElement ourApproachLink;
+
     @Step("Accept all cookies")
     public GoogleHomePage acceptAllCookies() {
         acceptAllCookiesButton.click();
@@ -75,6 +81,25 @@ public class GoogleHomePage extends BasePage {
         Waits.waitUntilElementIsVisible(googleApplications);
         log().info("Iframe is displayed " + googleApplications.isDisplayed());
         return googleApplications.isDisplayed();
+    }
+
+    @Step("Click on \"How search works\" hyperlink")
+    public String clickOnHowSearchWorksHyperLink() {
+        String howSearchWorksLinkText = howSearchWorksLink.getText();
+        howSearchWorksLink.click();
+        log().info("Clicked on \"How search works\" hyperlink");
+        return howSearchWorksLinkText;
+    }
+
+    @Step("Check if \"our apporach\" is displayed")
+    public Boolean isGoogleApproachDisplayed() {
+        boolean isDisplayed;
+        if(ourApproachLink.isDisplayed()) {
+            isDisplayed = true;
+        }
+        else isDisplayed = false;
+        log().info("");
+        return isDisplayed;
     }
 
 }
