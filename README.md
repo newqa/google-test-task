@@ -1,4 +1,4 @@
-1. To change properties (browser types available - chrome, edge, local or remote run) edit config.properties
+1. To change properties (browser types available - Chrome, Edge, local or remote run) edit config.properties
 2. To run SeleniumGrid go to your SeleniumGrid location and run command 
 -jar selenium-server-{version}.jar hub and -jar selenium-server-{version}.jar node
 3. To generate test-task allure report run command: mvn clean test allure:report.
