@@ -1,1 +1,0 @@
-{"uuid":"606313d0-259a-45e1-8fdf-1e241ed3f1e5","name":"test-task","children":["0f5fb114-6d28-442d-b179-9ac462272365"],"befores":[{"name":"beforeTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1655743173759,"stop":1655743174654}],"afters":[],"start":1655743173737,"stop":1655743174862}
