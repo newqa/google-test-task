@@ -5,5 +5,4 @@
             <class name="com.googletests.GoogleHomePageTests"/>
         </classes>
     </test>
-
 </suite>

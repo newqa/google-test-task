@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import utils.Waits;
 
+import static utils.Waits.waitUntilElementIsVisible;
+
 @Slf4j
 public class GoogleHomePage extends BasePage {
 
@@ -70,6 +72,7 @@ public class GoogleHomePage extends BasePage {
 
     @Step("Click on Gmail hyperlink")
     public String clickOnGmailHyperLink() {
+        waitUntilElementIsVisible(gmail);
         String gmailText = gmail.getText();
         gmail.click();
         log().info("Clicked on Gmail hyperlink");
@@ -79,7 +82,7 @@ public class GoogleHomePage extends BasePage {
     @Step("Click on Google applications")
     public Boolean clickOnGoogleApplicationsButton() {
         googleApplicationsButton.click();
-        Waits.waitUntilElementIsVisible(googleApplications);
+        waitUntilElementIsVisible(googleApplications);
         log().info("Iframe is displayed " + googleApplications.isDisplayed());
         return googleApplications.isDisplayed();
     }
@@ -95,7 +98,7 @@ public class GoogleHomePage extends BasePage {
     @Step("Check if \"our approach\" is displayed")
     public Boolean isGoogleApproachDisplayed() {
         boolean isDisplayed;
-        Waits.waitUntilElementIsVisible(ourApproachLink);
+        waitUntilElementIsVisible(ourApproachLink);
         try {
             ourApproachLink.isDisplayed();
             log.info("Element is displayed");

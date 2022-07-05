@@ -29,12 +29,10 @@ public class BrowserFactory {
             DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
             switch (browser) {
                 case CHROME:
-                    ChromeOptions chromeOptions = new ChromeOptions();
-                    desiredCapabilities.merge(chromeOptions);
+                    desiredCapabilities.merge(getChromeOptions());
                     return getRemoteWebDriver(desiredCapabilities);
                 case EDGE:
-                    EdgeOptions edgeOptions = new EdgeOptions();
-                    desiredCapabilities.merge(edgeOptions);
+                    desiredCapabilities.merge(getEdgeOptions());
                     return getRemoteWebDriver(desiredCapabilities);
                 default:
                     throw new IllegalStateException(UNKNOWN_BROWSER_MESSAGE);

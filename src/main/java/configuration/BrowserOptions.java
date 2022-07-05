@@ -7,7 +7,7 @@ public class BrowserOptions {
 
     public static ChromeOptions getChromeOptions() {
         ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--incognito");
+        chromeOptions.addArguments("--incognito", "--headless");
         return chromeOptions;
     }
 
